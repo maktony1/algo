@@ -9,8 +9,13 @@
     아이디는 알파벳 소문자로만 이루어져 있으며, 길이는 50자를 넘지 않는다.
  **/
 package Algorithm.maktony;
-public class main_10926 {
+
+import java.util.Scanner;
+
+public class Main_10926 {
     public static void main(String[] args) {
-        System.out.println("Hello World! test ");
+        Scanner sc = new Scanner(System.in);
+        String id = sc.nextLine();
+        System.out.println(id + "??!");
     }
 }
