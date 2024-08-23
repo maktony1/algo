@@ -13,8 +13,14 @@ ICPC Bangkok Regional에 참가하기 위해 수완나품 국제공항에 막 �
 **/
 package Algorithm.maktony;
 
+import java.util.Scanner;
+
 public class Main_18108 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String year = sc.next();
+
         
+        sc.close();
     }
 }
