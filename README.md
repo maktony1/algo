@@ -4,23 +4,23 @@
 
  &nbsp;&nbsp;터미널에서 아래 명령어 입력(깃 레포지토리 복제)
  
- &nbsp;&nbsp;&nbsp;git clone https://github.com/maktony1/algo.git
+ &nbsp;&nbsp;&nbsp;<mark>git clone https://github.com/maktony1/algo.git</mark>
   
  &nbsp;&nbsp;터미널에서 commit & push 할 경우
  
  &nbsp;&nbsp;&nbsp;이후 algo 폴더로 이동
  
- &nbsp;&nbsp;&nbsp;&nbsp;cd algo
+ &nbsp;&nbsp;&nbsp;&nbsp;<mark>cd algo</mark>
  
- &nbsp;&nbsp;&nbsp;&nbsp;git status
+ &nbsp;&nbsp;&nbsp;&nbsp;<mark>git status</mark>
  
- &nbsp;&nbsp;&nbsp;&nbsp;git add .  
+ &nbsp;&nbsp;&nbsp;&nbsp;<mark>git add .  </mark>
  
- &nbsp;&nbsp;&nbsp;&nbsp;git commit -m "커밋 메시지"
+ &nbsp;&nbsp;&nbsp;&nbsp;<mark>git commit -m "커밋 메시지"</mark>
  
- &nbsp;&nbsp;&nbsp;&nbsp;git stauts
+ &nbsp;&nbsp;&nbsp;&nbsp;<mark>git stauts</mark>
  
- &nbsp;&nbsp;&nbsp;&nbsp;git push origin main
+ &nbsp;&nbsp;&nbsp;&nbsp;<mark>git push origin main</mark>
 
  
 
