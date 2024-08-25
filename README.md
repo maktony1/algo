@@ -2,7 +2,7 @@
 
 1.Repository Pull 방법
 
-  터미널에서 아래 명령어 입력(깃 레포지토리 복제)
+ &nbsp; 터미널에서 아래 명령어 입력(깃 레포지토리 복제)
     git clone https://github.com/maktony1/algo.git
   
   터미널에서 commit & push 할 경우
