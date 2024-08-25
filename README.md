@@ -1,7 +1,6 @@
 # 탈 출 프 로 젝 트
 
 1.Repository Pull 방법
-![image](https://github.com/user-attachments/assets/92b99a97-0425-434d-9b4b-4b4308a949fe)
 
   터미널에서 아래 명령어 입력(깃 레포지토리 복제)
     git clone https://github.com/maktony1/algo.git
