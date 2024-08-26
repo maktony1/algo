@@ -18,14 +18,24 @@
 각 테스트 케이스에 대해 주어진 조건하에 다리를 지을 수 있는 경우의 수를 출력한다.
 **/
 package Algorithm.maktony;
-import java.util.Scanner;
+
+
+import java.io.*;
 
 public class Main_1010 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String year = sc.next();
+    public static void main(String[] args) throws IOException{
 
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         
-        sc.close();
+        int T = Integer.parseInt(br.readLine());
+
+        bw.write(T);
+        bw.flush();
+
+        System.out.println(T);
+        br.close();
+        bw.close();
+        }
     }
-}
+        
