@@ -18,7 +18,7 @@
  
  &nbsp;&nbsp;&nbsp;&nbsp;<mark>git commit -m "커밋 메시지"</mark>
  
- &nbsp;&nbsp;&nbsp;&nbsp;<mark>git stauts</mark>
+ &nbsp;&nbsp;&nbsp;&nbsp;<mark>git status</mark>
  
  &nbsp;&nbsp;&nbsp;&nbsp;<mark>git push origin main</mark>
 
