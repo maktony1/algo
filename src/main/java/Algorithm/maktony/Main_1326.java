@@ -54,6 +54,8 @@ public class Main_1326 {
         bw.flush();
         //스트림 종료
         bw.close();
+        br.close();
+        
     }
         
             //BFS
