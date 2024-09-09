@@ -22,7 +22,7 @@ package Algorithm.maktony;
 
 import java.io.*;
 
-public class Main_1010 {
+public class Main_1010 { 
     public static void main(String[] args) throws IOException{
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -30,10 +30,8 @@ public class Main_1010 {
         
         int T = Integer.parseInt(br.readLine());
 
-        bw.write(T);
+        bw.write(T+"\n");
         bw.flush();
-
-        System.out.println(T);
         br.close();
         bw.close();
         }
