@@ -16,7 +16,7 @@ b번 징검다리에 가고 싶다는 뜻이다. 징검다리에 쓰여있는 �
 첫째 줄에 개구리가 a번 징검다리에서 b번 징검다리로 최소 몇 번 점프하여 갈 수 있는 지를 출력하시오. 
 a에서 b로 갈 수 없는 경우에는 -1을 출력한다.
 **/
-package Algorithm.maktony;
+package Algorithm.maktony.solved;
   
 import java.io.*;
 import java.util.StringTokenizer;

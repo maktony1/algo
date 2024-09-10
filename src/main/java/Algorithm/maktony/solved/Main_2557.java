@@ -1,7 +1,7 @@
 /**
 
 **/
-package Algorithm.maktony;
+package Algorithm.maktony.solved;
 
 import java.io.*;
 

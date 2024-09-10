@@ -20,7 +20,7 @@
 각 테스트 케이스에 대해서, 섬의 개수를 출력한다.
 
 **/
-package Algorithm.maktony;
+package Algorithm.maktony.solving;
   
 import java.io.*;
 

@@ -17,7 +17,7 @@
 출력
 각 테스트 케이스에 대해 주어진 조건하에 다리를 지을 수 있는 경우의 수를 출력한다.
 **/
-package Algorithm.maktony;
+package Algorithm.maktony.Pending;
 
 
 import java.io.*;
