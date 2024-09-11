@@ -46,7 +46,7 @@ $K = 1$ 
 
  */
 
- package Algorithm.maktony.solving;
+ package Algorithm.maktony.solved;
 
 import java.util.*;
 import java.io.*;
