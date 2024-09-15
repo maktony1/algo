@@ -22,7 +22,7 @@ package Algorithm.maktony.pending;
 
 import java.io.*;
 
-public class Main_1010 { 
+public class Main_1010_my {
     public static void main(String[] args) throws IOException{
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

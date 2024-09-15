@@ -1,5 +1,5 @@
 /**
- * Main_27737
+ * 2024-09-11 수 3번째문제 // 버섯 농장 // BFS/DFS
 문제
 농부 해강이는 
 N X N 칸으로 이루어진 나무판에서 버섯 농사를 짓는다. 
@@ -45,7 +45,7 @@ N, M, K는 모두 정수이다.
 import java.util.*;
 import java.io.*;
 
-public class Main_27737 {
+public class Main_27737_3_20240911 {
     static long N, M, K;
     static long[] dx = {1, 0, -1, 0};
     static long[] dy = {0, 1, 0, -1};

@@ -1,5 +1,5 @@
 /**
- * 2024-09-09 월
+ * 2024-09-09 월 1번째문제 // 폴짝폴짝 // BFS/DFS
 문제
 개구리가 일렬로 놓여 있는 징검다리 사이를 폴짝폴짝 뛰어다니고 있다. 징검다리에는 숫자가 각각 쓰여 있는데, 
 이 개구리는 매우 특이한 개구리여서 어떤 징검다리에서 점프를 할 때는 그 징검다리에 쓰여 있는 수의 배수만큼 
@@ -23,7 +23,7 @@ import java.util.StringTokenizer;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Main_1326 { 
+public class Main_1326_1_20240909 {
     public static void main(String[] args) throws IOException{
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -49,7 +49,7 @@ public class Main_1326 {
         //System.out.println("\nn = "+n+"\n"+"bridge = "+Arrays.toString(bridge)+"\n"+"startBridge = "+startBridge+"\n"+"endBridge = "+endBridge);
 
         //버퍼에 입력
-        bw.write(new Main_1326().bfs(n, bridge, startBridge, endBridge)+"\n");
+        bw.write(new Main_1326_1_20240909().bfs(n, bridge, startBridge, endBridge)+"\n");
         // bw.write(bfs(n, bridge, startBridge, endBridge)+"\n"); //스태틱 안쓰는게 메모리나 시간 조금더 효율적
         //버퍼 출력
         bw.flush();

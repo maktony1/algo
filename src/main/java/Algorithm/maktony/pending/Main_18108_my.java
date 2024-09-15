@@ -15,7 +15,7 @@ package Algorithm.maktony.pending;
 
 import java.util.Scanner;
 
-public class Main_18108 {
+public class Main_18108_my {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String year = sc.next();

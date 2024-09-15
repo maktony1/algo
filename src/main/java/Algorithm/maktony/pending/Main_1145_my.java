@@ -1,9 +1,9 @@
-package Algorithm.maktony.solving;
+package Algorithm.maktony.pending;
 
 import java.util.*;
 import java.io.*;
 
-public class Main_1145 {
+public class Main_1145_my {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

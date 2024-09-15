@@ -1,5 +1,5 @@
 /**
- * 2024-09-10 화
+ * 2024-09-10 화 2번째문제 // 섬의 개수 // BFS/DFS
 문제
 정사각형으로 이루어져 있는 섬과 바다 지도가 주어진다. 섬의 개수를 세는 프로그램을 작성하시오.
 
@@ -24,7 +24,7 @@ package Algorithm.maktony.solved;
 import java.io.*;
 import java.util.*;
 
-public class Main_4963 { 
+public class Main_4963_2_20240910 {
      // 8방향으로 이동하기 위한 배열
      static int[] dx = {-1, -1, -1, 0, 1, 1, 1, 0};  // 대각선, 상하좌우
      static int[] dy = {-1, 0, 1, 1, 1, 0, -1, -1};  // 대각선, 상하좌우
