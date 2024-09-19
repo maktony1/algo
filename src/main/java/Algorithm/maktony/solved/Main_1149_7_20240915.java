@@ -17,7 +17,7 @@
  출력
  첫째 줄에 모든 집을 칠하는 비용의 최솟값을 출력한다.
 */
-package Algorithm.maktony.solving;
+package Algorithm.maktony.solved;
 
 import java.util.StringTokenizer;
 import java.io.*;

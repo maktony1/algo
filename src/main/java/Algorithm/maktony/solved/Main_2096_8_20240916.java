@@ -20,7 +20,7 @@
  출력
  첫째 줄에 얻을 수 있는 최대 점수와 최소 점수를 띄어서 출력한다.
 */
-package Algorithm.maktony.solving;
+package Algorithm.maktony.solved;
 
 import java.io.*;
 import java.util.Arrays;
