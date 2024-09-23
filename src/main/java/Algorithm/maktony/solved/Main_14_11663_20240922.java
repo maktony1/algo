@@ -16,7 +16,7 @@ package Algorithm.maktony.solved;
 import java.io.*;
 import java.util.*;
 
-public class Main_11663_14_20240922 {
+public class Main_14_11663_20240922 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

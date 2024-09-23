@@ -27,7 +27,7 @@ package Algorithm.maktony.solved;
 
 import java.io.*;
 
-public class Main_2615_11_20240919 {
+public class Main_11_2615_20240919 {
     static final int SIZE = 19;
     static int[][] board = new int[SIZE][SIZE];
 

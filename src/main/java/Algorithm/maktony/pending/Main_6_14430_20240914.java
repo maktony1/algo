@@ -18,7 +18,7 @@ package Algorithm.maktony.pending;
 
 import java.io.IOException;
 
-public class Main_14430_6_20240914 {
+public class Main_6_14430_20240914 {
     public static void main(String[] args) throws IOException {
 
     }

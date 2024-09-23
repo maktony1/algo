@@ -29,7 +29,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_13335_12_20240920 {
+public class Main_12_13335_20240920 {
     static final int SIZE = 19;
     static int[][] board = new int[SIZE][SIZE];
 

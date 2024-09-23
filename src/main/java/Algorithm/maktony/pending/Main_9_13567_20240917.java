@@ -37,12 +37,9 @@
 */
 package Algorithm.maktony.pending;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
 
-public class Main_13567_9_20240917 {
+public class Main_9_13567_20240917 {
     public static void main(String[] args) throws IOException {
 
     }

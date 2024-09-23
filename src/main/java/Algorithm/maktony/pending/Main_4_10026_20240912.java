@@ -28,7 +28,7 @@
  **/
 package Algorithm.maktony.pending;
 
-public class Main_10026_4_20240912 {
+public class Main_4_10026_20240912 {
     public static void main(String[] args) {
         System.out.println("test");
     }

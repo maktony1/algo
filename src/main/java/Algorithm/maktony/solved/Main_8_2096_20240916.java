@@ -25,7 +25,7 @@ package Algorithm.maktony.solved;
 import java.io.*;
 import java.util.Arrays;
 
-public class Main_2096_8_20240916 {
+public class Main_8_2096_20240916 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());

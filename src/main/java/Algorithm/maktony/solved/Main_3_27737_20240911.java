@@ -45,7 +45,7 @@ N, M, K는 모두 정수이다.
 import java.util.*;
 import java.io.*;
 
-public class Main_27737_3_20240911 {
+public class Main_3_27737_20240911 {
     static long N, M, K;
     static long[] dx = {1, 0, -1, 0};
     static long[] dy = {0, 1, 0, -1};

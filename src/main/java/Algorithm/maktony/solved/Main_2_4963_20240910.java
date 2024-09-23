@@ -24,7 +24,7 @@ package Algorithm.maktony.solved;
 import java.io.*;
 import java.util.*;
 
-public class Main_4963_2_20240910 {
+public class Main_2_4963_20240910 {
      // 8방향으로 이동하기 위한 배열
      static int[] dx = {-1, -1, -1, 0, 1, 1, 1, 0};  // 대각선, 상하좌우
      static int[] dy = {-1, 0, 1, 1, 1, 0, -1, -1};  // 대각선, 상하좌우

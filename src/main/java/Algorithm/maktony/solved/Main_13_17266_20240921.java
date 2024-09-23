@@ -6,7 +6,7 @@ package Algorithm.maktony.solved;
 
 import java.io.*;
 
-public class Main_17266_13_20240921 {
+public class Main_13_17266_20240921 {
 
     public static void main(String[] args) throws IOException {
                // 입력을 위한 BufferedReader 설정

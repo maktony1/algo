@@ -22,7 +22,7 @@ package Algorithm.maktony.solved;
 import java.util.StringTokenizer;
 import java.io.*;
 
-public class Main_1149_7_20240915 {
+public class Main_7_1149_20240915 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

@@ -23,7 +23,7 @@
  출력
  적어도 M미터의 나무를 집에 가져가기 위해서 절단기에 설정할 수 있는 높이의 최댓값을 출력한다.
 */
-package Algorithm.maktony.solving;
+package Algorithm.maktony.solved;
 
 import java.io.*;
 import java.util.*;
