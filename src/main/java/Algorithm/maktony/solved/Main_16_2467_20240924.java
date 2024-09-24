@@ -1,67 +1,73 @@
 /**
- * 2024-09-23 월 15번째문제 // 나무 자르기 // 이분탐색
+ * 2024-09-24 화 16번째문제 // 용액 // 이분탐색
  문제
- 상근이는 나무 M미터가 필요하다. 근처에 나무를 구입할 곳이 모두 망해버렸기 때문에, 정부에 벌목 허가를 요청했다.
- 정부는 상근이네 집 근처의 나무 한 줄에 대한 벌목 허가를 내주었고, 상근이는 새로 구입한 목재절단기를 이용해서 나무를 구할것이다.
+ KOI 부설 과학연구소에서는 많은 종류의 산성 용액과 알칼리성 용액을 보유하고 있다.
+ 각 용액에는 그 용액의 특성을 나타내는 하나의 정수가 주어져있다.
+ 산성 용액의 특성값은 1부터 1,000,000,000까지의 양의 정수로 나타내고,
+ 알칼리성 용액의 특성값은 -1부터 -1,000,000,000까지의 음의 정수로 나타낸다.
 
- 목재절단기는 다음과 같이 동작한다. 먼저, 상근이는 절단기에 높이 H를 지정해야 한다.
- 높이를 지정하면 톱날이 땅으로부터 H미터 위로 올라간다. 그 다음, 한 줄에 연속해있는 나무를 모두 절단해버린다.
- 따라서, 높이가 H보다 큰 나무는 H 위의 부분이 잘릴 것이고, 낮은 나무는 잘리지 않을 것이다.
- 예를 들어, 한 줄에 연속해있는 나무의 높이가 20, 15, 10, 17이라고 하자. 상근이가 높이를 15로 지정했다면,
- 나무를 자른 뒤의 높이는 15, 15, 10, 15가 될 것이고, 상근이는 길이가 5인 나무와 2인 나무를 들고 집에 갈 것이다.
- (총 7미터를 집에 들고 간다) 절단기에 설정할 수 있는 높이는 양의 정수 또는 0이다.
+ 같은 양의 두 용액을 혼합한 용액의 특성값은 혼합에 사용된 각 용액의 특성값의 합으로 정의한다.
+ 이 연구소에서는 같은 양의 두 용액을 혼합하여 특성값이 0에 가장 가까운 용액을 만들려고 한다.
 
- 상근이는 환경에 매우 관심이 많기 때문에, 나무를 필요한 만큼만 집으로 가져가려고 한다.
- 이때, 적어도 M미터의 나무를 집에 가져가기 위해서 절단기에 설정할 수 있는 높이의 최댓값을 구하는 프로그램을 작성하시오.
+ 예를 들어, 주어진 용액들의 특성값이 [-99, -2, -1, 4, 98]인 경우에는 특성값이 -99인
+ 용액과 특성값이 98인 용액을 혼합하면 특성값이 -1인 용액을 만들 수 있고,
+ 이 용액의 특성값이 0에 가장 가까운 용액이다. 참고로, 두 종류의 알칼리성 용액만으로나 혹은
+ 두 종류의 산성 용액만으로 특성값이 0에 가장 가까운 혼합 용액을 만드는 경우도 존재할 수 있다.
+
+ 산성 용액과 알칼리성 용액의 특성값이 정렬된 순서로 주어졌을 때, 이 중 두 개의 서로 다른 용액을 혼합하여
+ 특성값이 0에 가장 가까운 용액을 만들어내는 두 용액을 찾는 프로그램을 작성하시오.
 
  입력
- 첫째 줄에 나무의 수 N과 상근이가 집으로 가져가려고 하는 나무의 길이 M이 주어진다. (1 ≤ N ≤ 1,000,000, 1 ≤ M ≤ 2,000,000,000)
-
- 둘째 줄에는 나무의 높이가 주어진다. 나무의 높이의 합은 항상 M보다 크거나 같기 때문에, 상근이는 집에 필요한 나무를 항상 가져갈 수 있다.
- 높이는 1,000,000,000보다 작거나 같은 양의 정수 또는 0이다.
+ 첫째 줄에는 전체 용액의 수 N이 입력된다. N은 2 이상 100,000 이하의 정수이다.
+ 둘째 줄에는 용액의 특성값을 나타내는 N개의 정수가 빈칸을 사이에 두고 오름차순으로 입력되며,
+ 이 수들은 모두 -1,000,000,000 이상 1,000,000,000 이하이다. N개의 용액들의 특성값은 모두 서로 다르고,
+ 산성 용액만으로나 알칼리성 용액만으로 입력이 주어지는 경우도 있을 수 있다.
 
  출력
- 적어도 M미터의 나무를 집에 가져가기 위해서 절단기에 설정할 수 있는 높이의 최댓값을 출력한다.
+ 첫째 줄에 특성값이 0에 가장 가까운 용액을 만들어내는 두 용액의 특성값을 출력한다.
+ 출력해야 하는 두 용액은 특성값의 오름차순으로 출력한다.
+ 특성값이 0에 가장 가까운 용액을 만들어내는 경우가 두 개 이상일 경우에는 그 중 아무것이나 하나를 출력한다.
 */
 package Algorithm.maktony.solved;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
-public class Main_15_2805_20240923 {
+public class Main_16_2467_20240924 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-        int N = Integer.parseInt(st.nextToken());
-        long M = Long.parseLong(st.nextToken());
-        long[] trees = new long[N];
-        long max = 0;
+        int N = Integer.parseInt(br.readLine());
+        int[] solutions = new int[N];
 
-        st = new StringTokenizer(br.readLine(), " ");
+        StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
-            trees[i] = Long.parseLong(st.nextToken());
-            if (trees[i] > max) {
-                max = trees[i];
-            }
+            solutions[i] = Integer.parseInt(st.nextToken());
         }
 
-        long low = 0, high = max, mid = 0;
-        while (low <= high) {
-            mid = (low + high) / 2;
-            long total = 0;
-            for (long tree : trees) {
-                if (tree > mid) {
-                    total += tree - mid;
-                }
+        int left = 0;
+        int right = N - 1;
+        int closestSum = Integer.MAX_VALUE;
+        int resultLeft = 0;
+        int resultRight = 0;
+
+        while (left < right) {
+            int sum = solutions[left] + solutions[right];
+
+            if (Math.abs(sum) < Math.abs(closestSum)) {
+                closestSum = sum;
+                resultLeft = solutions[left];
+                resultRight = solutions[right];
             }
 
-            if (total >= M) {
-                low = mid + 1;
+            if (sum < 0) {
+                left++;
             } else {
-                high = mid - 1;
+                right--;
             }
         }
 
-        System.out.println(high);
+        System.out.println(resultLeft + " " + resultRight);
     }
 }
